@@ -8,9 +8,7 @@ class ClaseTest(unittest.TestCase):
 	def test_setNombre(self):
 		equipo = Equipos()
 		equipo.setNombre("Unión Deportiva Tesorillo")
-		assert equipo.nombre == "Unión Deportiva Tesorillo"
-		#self.assertEqual("UDT",Equipos.setNombre("Unión Deportiva 				Tesorillo"))
-		#assertEqual("Unión Deportiva 					Tesorillo",equipo.setNombre("Unión Deportiva 					Tesorillo"))
+		assert equipo.nombre == "Unión Deportiva Tesorillo" 				 					Tesorillo",equipo.setNombre("Unión Deportiva 					Tesorillo"))
 	def test_setPuntos(self):
 		puntos = Equipos()
 		puntos.setPuntos("6")

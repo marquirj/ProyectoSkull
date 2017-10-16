@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/marquirj/ProyectoSkull.svg?branch=master)](https://travis-ci.org/marquirj/ProyectoSkull)
 # Proyecto Skull
 
  1. Este proyecto consiste en la creación de un servicio de sincronización 

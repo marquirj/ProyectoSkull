@@ -8,6 +8,6 @@ class Equipos:
 	def getNombre(self):
 		return self.nombre
 	def setPuntos(self,puntos1):
-		self.puntos = puntos1
+		self.puntos = punt
 	def getPuntos(self):
 		return self.puntos

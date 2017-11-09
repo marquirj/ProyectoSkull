@@ -9,4 +9,4 @@ def status():
 
 @app.route('/prueba')
 def prueba(){
- return json(getclasificacion())
+ return json(getClasificacion())

@@ -1,1 +1,1 @@
-web:  python3 miapp.py
+web:  python miapp.py

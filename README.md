@@ -36,4 +36,4 @@ Una vez enlazado ambos, añado el archivo Procfile a mi repositorio para que Git
 
 El archivo contiene lo siguiente:
 
-worker: cd bot && python miapp.py
+web: python3 /bot/miapp.py

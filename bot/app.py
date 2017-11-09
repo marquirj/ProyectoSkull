@@ -10,3 +10,7 @@ def status():
 @app.route('/prueba')
 def prueba():
  return json(getClasificacion())
+
+if __name__ == '__main__':
+ 
+ app.run(host='0.0.0.0', debug=True)

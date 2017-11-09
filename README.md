@@ -22,9 +22,9 @@ Verificando que accedo dentro de la aplicación con un usuario.
 
 Creo una aplicación en Heroku, estos mismos pasos serán seguidos para la creación de mi aplicación, ProyectoSkull.
 
-![Crear Proyecto prueba](3.png)
+![Crear Proyecto prueba](/img/3.png)
 
 Un ejemplo comprobar los logs de la aplicación.
 
-![Logs](4.png)
+![Logs](/img/4.png)
 

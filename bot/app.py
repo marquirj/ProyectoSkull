@@ -8,5 +8,5 @@ def status():
  return json(status='OK')
 
 @app.route('/prueba')
-def prueba(){
+def prueba():
  return json(getClasificacion())

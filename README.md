@@ -34,12 +34,5 @@ Enlazo la aplicación con GitHub.
 
 ![Enlazado](/img/5.png)
 
-Una vez enlazado ambos, añado el archivo Procfile a mi repositorio para que GitHub realice el despliegue.
 
-El archivo contiene lo siguiente:
-
-web: python miapp.py
-
-
-
-Despliegue[Despliegue](https://proyectoskull.herokuapp.com/)
+Despliegue[Despliegue](https://proyectoskullapp.herokuapp.com/)

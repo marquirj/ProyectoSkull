@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/marquirj/)
+[![Build Status](https://travis-ci.org/marquirj/ProyectoSkull.svg?branch=master)](https://travis-ci.org/marquirj/ProyectoSkull)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=hhttps://github.com/marquirj/ProyectoSkul)
-ProyectoSkull.svg?branch=master)](https://travis-ci.org/marquirj/ProyectoSkull)
+
 # Proyecto Skull
 
  1. Este proyecto consiste en la creación de un servicio de sincronización de resultados. En primer momento pensé en hacer la aplacación de resultados de la primera división española, pero debido al nombre he pensado que podía crear el servicio para la liga andaluza de Cádiz, donde milita el equipo de mi pueblo.

@@ -1,10 +1,9 @@
 [![Build Status](https://travis-ci.org/marquirj/ProyectoSkull.svg?branch=master)](https://travis-ci.org/marquirj/ProyectoSkull)
 # Proyecto Skull
 
- 1. Este proyecto consiste en la creación de un servicio de sincronización 
-de resultados.
+ 1. Este proyecto consiste en la creación de un servicio de sincronización de resultados. En primer momento pensé en hacer la aplacación de resultados de la primera división española, pero debido al nombre he pensado que podía crear el servicio para la liga andaluza de Cádiz, donde milita el equipo de mi pueblo.
  2. El lenguaje de programación que se usaré será Python.
- 3. Mi intención es montar una base de datos MySql.
+ 3. Mi intención era montar una base de datos MySql, pero una vez usado Heroku y viendo que incorpora un addon para PostgreSQl, usaré esa base de datos.
 
 ## Integración Continua.
 
@@ -28,3 +27,13 @@ Un ejemplo comprobar los logs de la aplicación.
 
 ![Logs](/img/4.png)
 
+
+Enlazo la aplicación con GitHub.
+
+![Enlazado](/img/5.png)
+
+Una vez enlazado ambos, añado el archivo Procfile a mi repositorio para que GitHub realice el despliegue.
+
+El archivo contiene lo siguiente:
+
+worker: cd bot && python miapp.py

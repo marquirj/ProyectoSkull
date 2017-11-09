@@ -19,3 +19,12 @@ Me registro en el servicio PaaS, Heroku.
 Verificando que accedo dentro de la aplicación con un usuario.
 
 ![Comprobación](/img/2.png)
+
+Creo una aplicación en Heroku, estos mismos pasos serán seguidos para la creación de mi aplicación, ProyectoSkull.
+
+![Crear Proyecto prueba](3.png)
+
+Un ejemplo comprobar los logs de la aplicación.
+
+![Logs](4.png)
+

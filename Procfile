@@ -1,2 +1,2 @@
-worker: python miapp.py
+worker: python web.py
 web: gunicorn web:app --log-file -

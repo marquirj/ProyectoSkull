@@ -1,5 +1,5 @@
 from flask import Flask, json, request
-from contendores import *
+from contenedores import *
 
 app = Flask(__name__)
 
@@ -7,6 +7,6 @@ app = Flask(__name__)
 def status():
  return json(status='OK')
 
-@app.route('prueba')
+@app.route('/prueba')
 def prueba(){
  return json(getclasificacion())

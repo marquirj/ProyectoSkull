@@ -36,4 +36,4 @@ Enlazo la aplicación con GitHub.
 
 Indico el despliegue:
 
-Despliegue [Despliegue](https://proyectoskullapp.herokuapp.com/)
+Despliegue https://proyectoskullapp.herokuapp.com/

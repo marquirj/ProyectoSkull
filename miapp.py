@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def prueba():
+def status():
  data = {'status': 'OK'}
  return json.dumps(data)
 

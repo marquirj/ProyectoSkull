@@ -1,15 +1,15 @@
-from flask import Flask, jsonfy, request
+from flask import Flask, json, request
 from contenedores import *
 
 app = Flask(__name__)
 
 @app.route('/')
 def status():
- return jsonfy(status='OK')
+ return json(status='OK')
 
 @app.route('/prueba')
 def prueba():
- return jsonfy(getClasificacion())
+ return json(getClasificacion())
 
 if __name__ == '__main__':
  

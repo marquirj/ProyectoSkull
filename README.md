@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/marquirj/
+[![Build Status](https://travis-ci.org/marquirj/)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=hhttps://github.com/marquirj/ProyectoSkul)
 ProyectoSkull.svg?branch=master)](https://travis-ci.org/marquirj/ProyectoSkull)
 # Proyecto Skull

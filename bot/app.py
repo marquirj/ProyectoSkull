@@ -1,11 +1,11 @@
-from flask import Flask, json, request
+from flask import Flask, jsonfi, request
 from contenedores import *
 
 app = Flask(__name__)
 
 @app.route('/')
 def status():
- return json(status='OK')
+ return jsonfi(status='OK')
 
 @app.route('/prueba')
 def prueba():

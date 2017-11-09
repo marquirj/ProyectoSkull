@@ -9,3 +9,13 @@ de resultados.
 ## Integración Continua.
 
  Usaré TDD para ir haciendo pruebas para desarrollar el proyecto. 
+
+# Despliegue Heroku.
+
+Me registro en el servicio PaaS, Heroku.
+
+![Imagen darse de alta](/img/1.png)
+
+Verificando que accedo dentro de la aplicación con un usuario.
+
+![Comprobación](/img/2.png)

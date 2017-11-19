@@ -16,7 +16,7 @@ class ClaseTest(unittest.TestCase):
 		puntos.setPuntos("6")
 		assert puntos.puntos == "6"
 class JSONTest(unittest.TestCase):
-	url="http://localhost:5001/"
+	url="http://0.0.0.0:5000/"
 	def test_pagina_recibida(self):
 		ruta=urllib.urlopen(self.url)
 		self.assertEqual(ruta.getcode(),200)

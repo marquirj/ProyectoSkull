@@ -6,4 +6,4 @@ equiposPuntos = [("Chiclana C.F", 25), ("Trebujena C.F", 25), ("Jerez Industrial
 def getClasificacion():
  equiposPuntos.sort(key=lambda puntos: puntos[1], reverse=True)
  return equiposPuntos
-#futbolistasTup.sort(key=lambda futbolista: futbolista[0])
+

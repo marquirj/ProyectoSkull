@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from funciones import Equipos
 import unittest
+import json
+import urllib
 
 class ClaseTest(unittest.TestCase):
     	"""Reminder test class."""
@@ -13,6 +15,15 @@ class ClaseTest(unittest.TestCase):
 		puntos = Equipos()
 		puntos.setPuntos("6")
 		assert puntos.puntos == "6"
+class JSONTest(unittest.TestCase):
+	url="https://proyectoskullapp.herokuapp.com/"
+	def test_pagina_recibida(self):
+		ruta=urllib.urlopen(self.url)
+		self.assertEqual(ruta.getcode(),200)
+	def test_json_status_ok(self):
+		ruta=urllib.urlopen(self.url)
+		data = json.load(ruta)
+		self.assertEqual(data["status"],"OK")
 
 
 if __name__ == '__main__':

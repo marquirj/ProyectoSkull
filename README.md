@@ -9,7 +9,7 @@
 
 ## Integración Continua.
 
- Usaré TDD para ir haciendo pruebas para desarrollar el proyecto. 
+ Usaré TDD para ir haciendo pruebas para desarrollar el proyecto.
 
 # Despliegue Heroku.
 
@@ -37,3 +37,19 @@ Enlazo la aplicación con GitHub.
 Indico el despliegue:
 
 Despliegue https://proyectoskullapp.herokuapp.com/
+
+# Despliegue Docker
+
+Primero instalo Docker en Ubuntu 16.04 LTS, para ello sigo los pasos que se [indica.](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#upgrade-docker-after-using-the-convenience-script)
+
+Luego ejecuto el servicio con el comando: sudo service docker start
+ ![Start](/img/6.png)
+
+ Una vez creado, me registro en Docker y enlazo con mi repositorio de github.
+
+ ![Registro](/img/8.png)
+
+ Ahora enlazo y creo en Docker.
+
+ ![Enlazado](/img/7.png)
+ 

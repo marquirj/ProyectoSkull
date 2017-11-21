@@ -52,4 +52,9 @@ Luego ejecuto el servicio con el comando: sudo service docker start
  Ahora enlazo y creo en Docker.
 
  ![Enlazado](/img/7.png)
- 
+
+Y una vez añadido el Dockerfile, vemos que compila.
+
+![Construcción](/img/9.png)
+
+[Enlace a Docker](https://cloud.docker.com/swarm/marquirj0/repository/docker/marquirj0/proyectoskull/general)

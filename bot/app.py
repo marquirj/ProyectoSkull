@@ -4,9 +4,11 @@ from contenedores import *
 app = Flask(__name__)
 
 @app.route('/')
+def clas():
+ return jsonify(getClasificacion())
+@app.route('/status')
 def status():
  return jsonify(status='OK')
-
 @app.route('/prueba')
 def prueba():
  return jsonify(getClasificacion())

@@ -12,6 +12,6 @@ RUN apt-get install net-tools
 
 RUN apt-get install -y git
 COPY . .
-RUN pip install -r ProyectoSkull/requirements.txt
+RUN pip install -r requirements.txt
 EXPOSE 8000
 CMD  cd bot && python app.py

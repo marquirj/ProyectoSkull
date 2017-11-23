@@ -58,3 +58,12 @@ Y una vez añadido el Dockerfile, vemos que compila.
 ![Construcción](/img/9.png)
 
 [Enlace a Docker](https://cloud.docker.com/swarm/marquirj0/repository/docker/marquirj0/proyectoskull/general)
+
+
+# Despliegue en Zeit
+
+Para le despliegue en Zeit es necesario instalar now, primero he instalado nvm, y una vez instalado descargo now con la orden npm install -g now.
+
+En la carpeta de nuestro proyecto ejecuto: now --public listo.
+
+Contenedor: https://proyectoskull-wgvkzghhcb.now.sh/

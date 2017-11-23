@@ -57,7 +57,7 @@ Y una vez añadido el Dockerfile, vemos que compila.
 
 ![Construcción](/img/9.png)
 
-[Enlace a Docker](https://cloud.docker.com/swarm/marquirj0/repository/docker/marquirj0/proyectoskull/general)
+[Enlace a Docker](https://hub.docker.com/r/marquirj0/proyectoskull/)
 
 
 # Despliegue en Zeit

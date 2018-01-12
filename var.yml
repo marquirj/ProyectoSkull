@@ -1,0 +1,10 @@
+project_name: proyectoskull
+project_repo: https://github.com/marquirj/ProyectoSkull.git
+project_path: clasificacion
+
+system_packages:
+  - build-essential
+  - git
+  - npm
+  - nodejs-legacy
+  - git

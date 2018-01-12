@@ -62,8 +62,34 @@ Y una vez añadido el Dockerfile, vemos que compila.
 
 # Despliegue en Zeit
 
-Para le despliegue en Zeit es necesario instalar now, primero he instalado nvm, y una vez instalado descargo now con la orden npm install -g now.
+Para el despliegue en Zeit es necesario instalar now, primero he instalado nvm, y una vez instalado descargo now con la orden npm install -g now.
 
 En la carpeta de nuestro proyecto ejecuto: now --public y listo
 
 Contenedor: https://proyectoskull-isnentwdjf.now.sh
+
+
+# Despliegue en Azure.
+
+Para realizar el despliegue en una máquina virtual del tipo IaaS remota usaremos Azure, el profesor nos proporcionó un cupón para poder usar Azure gratuitamente.
+
+Para realizar la práctica se necesita una máquina virtual, para el uso de máquinas virtuales voy a usar vagrant que también lo usamos en la asignatura de Desarrollo de Aplicaciones para Internet.
+
+Vagrant tiene un puglin para azure que hemos instalado, con el comando:
+- vagrant pluging install vagrant-azure.
+
+Necesitaremos el archivo VagrantFile que es el siguiente:
+
+![VagrantFile](/img/10.png)
+
+También será nesesario un archivo Ansible que contiene el siguiente contenido, este archivo se encargará del aprovisionamiento de la máquina:
+
+![Ansible](/img/11.png)
+
+
+Por último el uso de FABRIC, que se encargará de automatizar el despliegue. Nuestro archivo contendrá lo siguiente:
+
+![fabbile](/img/12.png)
+
+Despliegue final: solitary-resonance-32.westus.cloudapp.azure.com
+IP pública : 104.42.107.18

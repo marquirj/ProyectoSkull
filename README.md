@@ -62,7 +62,7 @@ Y una vez añadido el Dockerfile, vemos que compila.
 
 # Despliegue en Zeit
 
-Para el despliegue en Zeit es necesario instalar now, primero he instalado nvm, y una vez instalado descargo now con la orden npm install -g now.
+Para el despliegue en Zeit es necesario instalar now. Primero he instalado nvm, y una vez instalado descargo now con la orden npm install -g now.
 
 En la carpeta de nuestro proyecto ejecuto: now --public y listo
 

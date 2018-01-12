@@ -6,19 +6,11 @@
     raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal && apt-install -y python-flask)
 
   tasks:
-  - name: Actualizar sistema
+  - name: Actualizar
     become: yes
     command: apt-get update
 
-  - name: Instalar postgre
-    become: yes
-    command: apt-get install -y libpq-dev
-
-  - name: Instalar requirements
-    become: yes
-    command: apt-get install -y build-essential
-
-  - name: Instalar Git
+  - name:  Git
     become: yes
     command: apt-get install -y git
 
@@ -26,7 +18,7 @@
     become: yes
     command: apt-get install -y python-pip
 
-  - name: Clonar GitHub
+  - name: Copiar Repo
     become: yes
     git: repo=https://github.com/marquirj/ProyectoSkull  dest=~/ProyectoSkull/ clone=yes force=yes
 
